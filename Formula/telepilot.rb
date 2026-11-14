@@ -1,25 +1,25 @@
 class Telepilot < Formula
   desc "Lightweight, keyboard-driven Telegram AI Client & Skill Runner"
   homepage "https://github.com/EvgenySamarin/telepilot"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/EvgenySamarin/telepilot/releases/download/v0.2.0/telepilot_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "7f61a2ffbbf8fb2739a631a714f6533b6a9b4ee8471606416468838ab504574d"
+      url "https://github.com/EvgenySamarin/telepilot/releases/download/v0.3.0/telepilot_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "4f6eb1c79517262c6a9c9f96718b47e70abfb4e3093f50dfb8b055d29d300303"
     end
 
     on_intel do
-      url "https://github.com/EvgenySamarin/telepilot/releases/download/v0.2.0/telepilot_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "3ac44e25a9866698bbcb0894a732d1ad363e7d51d2073aa5956fe98b468de9fb"
+      url "https://github.com/EvgenySamarin/telepilot/releases/download/v0.3.0/telepilot_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "2b9e97dbddf52992c0ed9ada58a597cfbb7821c802df468bf28aaa74f14a00fe"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/EvgenySamarin/telepilot/releases/download/v0.2.0/telepilot_v0.2.0_linux_amd64.tar.gz"
-      sha256 "267c6f0ab9add0e0a6c518537110a9c3c2364694e4ebac54361d5855b070f467"
+      url "https://github.com/EvgenySamarin/telepilot/releases/download/v0.3.0/telepilot_v0.3.0_linux_amd64.tar.gz"
+      sha256 "06bc9618b40bfee406a05709c25c8e6dd3457d542fbe6222e5b4409c818ff786"
     end
   end
 
